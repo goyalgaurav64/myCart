@@ -1,3 +1,7 @@
+# Angulaar 18 with CRUD Operations
+
+The data has been generated through JSON fake API with which we have done CRUD operations with Reactive Forms
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
