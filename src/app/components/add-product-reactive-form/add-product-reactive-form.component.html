@@ -1,0 +1,84 @@
+<div appearance="" class="container mt-5 h-75">
+  <div class="flex">
+    <form
+      class="w-100"
+      [formGroup]="this.productForm"
+      (ngSubmit)="handleSubmit()"
+    >
+      <div class="w-100 row">
+        <label for="name" class="h5">Enter Product Name</label>
+        <mat-form-field class="w-100" appearance="fill" class="mt-2">
+          <mat-label>Product Name</mat-label>
+          <input
+            id="productName"
+            formControlName="Name"
+            name="name"
+            matInput
+            placeholder="Name"
+          />
+        </mat-form-field>
+      </div>
+
+      <div class="row w-100">
+        <label for="brand" class="h5">Enter Brand Name</label>
+        <mat-form-field class="" appearance="fill" class="mt-2">
+          <mat-label>Brand Name</mat-label>
+          <input
+            id="brandName"
+            name="brand"
+            matInput
+            placeholder="Brand Name"
+            formControlName="Brand"
+          />
+        </mat-form-field>
+      </div>
+
+      <div class="row w-100">
+        <label for="price" class="h5">Enter Product Price</label>
+        <mat-form-field appearance="fill" class="mt-2">
+          <mat-label>Product Price</mat-label>
+          <input
+            id="productPrice"
+            formControlName="Cost"
+            name="price"
+            matInput
+            placeholder="Price"
+          />
+        </mat-form-field>
+      </div>
+
+      <div class="row w-100">
+        <label for="image" class="h5">Enter Image URL</label>
+        <mat-form-field appearance="fill" class="mt-2">
+          <mat-label>Product Image URL</mat-label>
+          <input
+            id="image"
+            formControlName="img"
+            name="image"
+            matInput
+            placeholder="Image"
+          />
+        </mat-form-field>
+      </div>
+
+      <div class="row w-100">
+        <label for="description" class="h5">Enter Product Description</label>
+        <mat-form-field class="w-100" appearance="fill" class="mt-2">
+          <mat-label>Description</mat-label>
+          <textarea
+            matInput
+            name="description"
+            formControlName="description"
+            id="prodDescription"
+          ></textarea>
+        </mat-form-field>
+      </div>
+
+      <div class="row w-100">
+        <button type="submit" color="primary" mat-raised-button>
+          Save new Product
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

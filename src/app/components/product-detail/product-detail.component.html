@@ -1,0 +1,41 @@
+<mat-card
+  appearance="outlined"
+  style="width: 1000px; margin-left: 10%; margin-top: 70px"
+>
+  <div style="display: flex">
+    <img
+      class="border rounded"
+      style="width: 400px; margin-top: 50px"
+      mat-card-image
+      [src]="product.img"
+    />
+    <div style="margin-left: 30px">
+      <label
+        class="h1"
+        style="margin-left: 10px; font-size: 50px; margin-top: 20px"
+        >{{ product.Name }}</label
+      >
+      <mat-card-subtitle
+        style="margin-left: 15px; font-size: 25px; margin-top: 20px"
+        >{{ product.Brand }}</mat-card-subtitle
+      >
+      <mat-card-content style="margin-top: 15px">
+        {{ product.description }}
+      </mat-card-content>
+      <mat-chip-set class="mx-2" aria-label="price">
+        <mat-chip>Rs {{ product.Cost }}</mat-chip>
+      </mat-chip-set>
+      <mat-card-actions>
+        <button
+          mat-raised-button
+          color="warn"
+          class=""
+          style="margin: 4px"
+          (click)="handleEdit()"
+        >
+          Edit
+        </button>
+      </mat-card-actions>
+    </div>
+  </div>
+</mat-card>

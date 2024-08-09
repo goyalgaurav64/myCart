@@ -1,0 +1,35 @@
+<mat-card class="border rounded" style="height: 300px" appearance="outlined">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title>{{ item.Name }}</mat-card-title>
+      <mat-card-subtitle>{{ item.Brand | uppercase }}</mat-card-subtitle>
+      <img class="border rounded" mat-card-sm-image [src]="item.img" />
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    {{ item.description }}
+  </mat-card-content>
+  <div style="bottom: 0; left: 0; position: absolute" class="p-2">
+    <mat-chip-set class="mx-2" aria-label="price">
+      <mat-chip>{{ item.Cost | rupee }}</mat-chip>
+    </mat-chip-set>
+  </div>
+  <div style="bottom: 0; right: 0; position: absolute">
+    <mat-card-actions>
+      <button
+        mat-stroked-button
+        class="btn btn-outline-success btn-sm"
+        (click)="handleBuy(item)"
+      >
+        Buy
+      </button>
+      <button
+        mat-stroked-button
+        class="btn btn-primary btn-sm m-2"
+        (click)="handleView(item)"
+      >
+        View
+      </button>
+    </mat-card-actions>
+  </div>
+</mat-card>

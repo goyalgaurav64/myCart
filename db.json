@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "Name": "T-shirt",
+      "Brand": "Adidas",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "1000",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "2",
+      "Name": "Premium quality Jeans",
+      "Brand": "Louis Vuitton",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.",
+      "Cost": "99999",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "Hoodie",
+      "Brand": "Puma",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "4500",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "4",
+      "Name": "Jacket",
+      "Brand": "H&M",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "11500",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "5",
+      "Name": "Shoes",
+      "Brand": "New Balance",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "9500",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "6",
+      "Name": "iPhone 14 Pro Max",
+      "Brand": "Apple",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "150000",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "7",
+      "Name": "Jeans",
+      "Brand": "Louis Vuitton",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "99999",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "8",
+      "Name": "Hoodie",
+      "Brand": "Puma",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "4500",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "9",
+      "Name": "Jacket",
+      "Brand": "H&M",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+      "Cost": "11500",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting."
+    },
+    {
+      "id": "10",
+      "Name": "Sports Shoes",
+      "Brand": "Asics",
+      "description": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.",
+      "Cost": "9500",
+      "img": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    },
+    {
+      "id": "6a0d",
+      "Name": "Apple iPad Air (5th gen) 256 GB ROM 10.9 Inch with Wi-Fi Only (Red)",
+      "Brand": "Apple",
+      "description": "Apple I-Pad",
+      "Cost": "57,699",
+      "img": "https://rukminim2.flixcart.com/image/312/312/l0jwbrk0/tablet/h/i/3/-original-imagcbjrkffdzqrz.jpeg?q=70"
+    },
+    {
+      "id": "320d",
+      "Name": "SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)  (12 GB RAM)",
+      "Brand": "Samsung",
+      "description": "8 GB RAM | 256 GB ROM\n17.27 cm (6.8 inch) Quad HD+ Display\n200MP + 50MP + 12MP + 10MP | 12MP Front Camera\n5000 mAh Battery\nSnapdragon 8 Gen 3 Processor",
+      "Cost": "99,999",
+      "img": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/e/8/-original-imahyvntxfrpuw6g.jpeg?q=70"
+    },
+    {
+      "id": "",
+      "Name": "Hard Body Set of 3 Luggage 4 Wheels - Magnum Zeno 3P set 4W - Grey",
+      "Brand": "Safari",
+      "Cost": "4799",
+      "img": "https://rukminim2.flixcart.com/image/612/612/xif0q/suitcase/c/i/r/-original-imahyz8zgdjaupx8.jpeg?q=70",
+      "description": "Hard Body Luggage\nEasy to carry"
+    }
+  ]
+}

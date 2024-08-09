@@ -1,0 +1,36 @@
+<mat-form-field>
+  <input
+    matInput
+    type="search"
+    aria-label="Search"
+    placeholder="Search"
+    [(ngModel)]="value"
+    (keyup)="handleSearch()"
+  />
+  <!-- <button
+    matSuffix
+    class="btn btn-primary"
+    mat-icon-button
+    (click)="handleSearch()"
+  >
+    <mat-icon>search</mat-icon>
+  </button> -->
+</mat-form-field>
+
+<button
+  mat-raised-button
+  class="mx-2"
+  color="primary"
+  routerLink="/add-product"
+>
+  Add Product
+</button>
+
+<button
+  mat-raised-button
+  class="mx-2"
+  color="primary"
+  routerLink="/new-product"
+>
+  Add Product Reactive form
+</button>
