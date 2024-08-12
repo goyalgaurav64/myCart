@@ -29,4 +29,19 @@ export class ProductDetailComponent implements OnInit {
   handleEdit() {
     this.route.navigateByUrl('/edit-product/' + this.product.id);
   }
+
+  handleDelete() {
+    var response = confirm('Are you sure you want to delete?');
+    if (response) {
+      this.productService
+        .deleteProduct(this.product.id!)
+        .subscribe((result) => {
+          alert('Product has been removed');
+          this.route.navigateByUrl('/');
+        });
+    } else {
+      return;
+    }
+  }
+  
 }
